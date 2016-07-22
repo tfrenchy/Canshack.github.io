@@ -3,13 +3,10 @@ layout: page
 title: About
 permalink: /about/
 ---
+WHY?
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+What I'm Listening To is a blog built to showcase the new and upcoming electronic music that we are currently listening to.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+WHO WE ARE
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+We are dance music enthusiasts, dedicated to bringing new and vibrant electronic music to your attention from the mainstream to the little know artists.
