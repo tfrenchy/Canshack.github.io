@@ -1,11 +1,17 @@
 
 ---
-
-layout: post
-title: ANGELZ - Snow Angel
-
+title: ANGELZ-snow angel
+layout: default
 ---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/273813962&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+  </header>
 
-A new track from the genius that is ANGELZ
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+</article>
