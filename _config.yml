@@ -6,13 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: What I'm Listening To
+title: Deeper Sound
 
 description: > # this means to ignore newlines until "baseurl:"
-  Future Bass, Deep House, Hip-hop and trap. This is What I'm Listening To
+  Future Bass, Deep House, Hip-hop and trap
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
+twitter_username: @DeeperSound
 github_username:  Canshack
 
 # Build settings
