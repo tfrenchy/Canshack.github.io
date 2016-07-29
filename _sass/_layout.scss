@@ -154,7 +154,7 @@
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
-}
+}F
 
 @include media-query($on-palm) {
     .footer-col {
@@ -171,6 +171,10 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+}
+
+.header-logo {
+    max-width: 64px;
 }
 
 .page-heading {
